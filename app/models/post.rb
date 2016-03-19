@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
 
-  validates :title, :post_date, presence: true
+  validates :title, presence: true
 
 end
