@@ -48,3 +48,5 @@ end
 gem "faker"
 
 gem "doorkeeper"
+
+gem "http"
