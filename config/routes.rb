@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
     post "users" => 'registrations#create'
 
+    get "users/:id" => 'users#me'
+    delete "users/:id" => 'users#delete'
   end
 
 end
